@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dependency> 
+<groupId>javax.mail</groupId> 
+<artifactId>mail</artifactId>
+ <version>1.4.7</version>
+  </dependency>
+  
+  <!-- 메일발송에 필요한 라이브러리를 추가해 주는 작업 -->
+
