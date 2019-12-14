@@ -7,7 +7,14 @@ public class ReplyBean {
 	private String CONTENT;
 	private int REPLYNUM;
 	private String ID;
+	private int REF;
 	
+	public int getREF() {
+		return REF;
+	}
+	public void setREF(int rEF) {
+		REF = rEF;
+	}
 	public Date getUDATE() {
 		return UDATE;
 	}
