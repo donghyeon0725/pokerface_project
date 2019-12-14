@@ -11,13 +11,24 @@
   </welcome-file-list>
   
 <servlet>
-  	<servlet-name>contoller</servlet-name>
+  	<servlet-name>memberContoller</servlet-name>
   	<servlet-class>net.member.action.MemberController</servlet-class>
 </servlet>
 
 <servlet-mapping>
-	<servlet-name>contoller</servlet-name>
+	<servlet-name>memberContoller</servlet-name>
 	<url-pattern>*.lo</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  	<servlet-name>boardContoller</servlet-name>
+  	<servlet-class>net.board.action.BoardController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>boardContoller</servlet-name>
+	<url-pattern>*.do</url-pattern>
 </servlet-mapping>
 	
  
