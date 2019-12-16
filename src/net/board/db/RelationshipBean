@@ -1,0 +1,26 @@
+package net.board.db;
+
+public class RelationshipBean {
+	private String ID_1;
+	private String ID_2;
+	private String RELATION;
+	
+	public String getID_1() {
+		return ID_1;
+	}
+	public void setID_1(String iD_1) {
+		ID_1 = iD_1;
+	}
+	public String getID_2() {
+		return ID_2;
+	}
+	public void setID_2(String iD_2) {
+		ID_2 = iD_2;
+	}
+	public String getRELATION() {
+		return RELATION;
+	}
+	public void setRELATION(String rELATION) {
+		RELATION = rELATION;
+	}
+}
